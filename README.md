@@ -9,3 +9,5 @@ A CPU-Based software renderer for the Raspberry Pi Zero 2 W. Zero "dedicated" GP
     - It's really cheap. (15$)
     - While there is an even less powerful and even cheaper microcontroller (Pi Pico), I wouldn't be able to use C++, and most of the effort wouldn't be on the renderer but just getting to start point of the Pi Zero.
   
+# How it Works
+- SDL
