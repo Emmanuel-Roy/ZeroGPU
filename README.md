@@ -1,7 +1,7 @@
 # ZeroGPU (WIP)
 A CPU-Based software renderer for the Raspberry Pi Zero 2 W. Zero "dedicated" GPU!
 
-## Works, just fixing bugs before public release.
+## Currently working but I am fixing bugs before public release.
 
 ## Donut
 <img width="400" height="310" alt="image" src="https://github.com/user-attachments/assets/69408224-4923-4918-b445-685b3809bd62" />
@@ -22,5 +22,4 @@ A CPU-Based software renderer for the Raspberry Pi Zero 2 W. Zero "dedicated" GP
     - While there is an even less powerful and even cheaper microcontroller (Pi Pico), I wouldn't be able to use C++, and most of the effort wouldn't be on the renderer but just getting to start point of the Pi Zero.
   
 # How it Works
-- 5 Stage Pipeline
-- SDL
+- The Graphics Pipeline is OBJ load → Vertex transform (rotation + scale) → Projection → Triangle assembly → Rasterization (barycentric + Z-buffer) → Framebuffer output → Display (SDL2)
