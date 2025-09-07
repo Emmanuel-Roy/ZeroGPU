@@ -17,9 +17,11 @@ A CPU-Based software renderer for the Raspberry Pi Zero 2 W. Zero "dedicated" GP
 - I made this project to learn more about the OpenGL, DirectX, and Vulkan Graphics Pipeline. 
 - Despite the name, the PI Zero 2 W is just the platform this software will be developed on. Theoretically, you could run this renderer on anything from a powerful desktop to a Samsung Smart Fridge. I'm not your boss.
 - Think of this less of a hardware project, and more of a "can we make a microcontroller optimized version of OpenGL?"
+- There's no textures or lighting support yet, but I may get around to that at some point, it's just a decent amount of work.
 - I picked the PI Zero 2 W for a couple reasons.
     - It's really cheap. (15$)
     - While there is an even less powerful and even cheaper microcontroller (Pi Pico), I wouldn't be able to use C++, and most of the effort wouldn't be on the renderer but just getting to start point of the Pi Zero.
   
 # How it Works
 - The Graphics Pipeline is OBJ load → Vertex transform (rotation + scale) → Projection → Triangle assembly → Rasterization (barycentric + Z-buffer) → Framebuffer output → Display (SDL2)
+- Coming soon
