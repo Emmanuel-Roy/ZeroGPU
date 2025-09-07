@@ -1,6 +1,16 @@
 # ZeroGPU (WIP)
 A CPU-Based software renderer for the Raspberry Pi Zero 2 W. Zero "dedicated" GPU!
 
+## Works, just fixing bugs before public release.
+
+<img width="800" height="620" alt="image" src="https://github.com/user-attachments/assets/69408224-4923-4918-b445-685b3809bd62" />
+<img width="797" height="623" alt="image" src="https://github.com/user-attachments/assets/8005a854-48f0-456e-81cc-1b002709c9cb" />
+
+<img width="793" height="619" alt="image" src="https://github.com/user-attachments/assets/73391a00-cc86-4cad-9fee-a983d867f797" />
+<img width="789" height="629" alt="image" src="https://github.com/user-attachments/assets/c3a74053-f6b4-451b-9af1-923982dfd3ac" />
+
+
+
 # About 
 - I made this project to learn more about the OpenGL, DirectX, and Vulkan Graphics Pipeline. 
 - Despite the name, the PI Zero 2 W is just the platform this software will be developed on. Theoretically, you could run this renderer on anything from a powerful desktop to a Samsung Smart Fridge. I'm not your boss.
@@ -10,4 +20,5 @@ A CPU-Based software renderer for the Raspberry Pi Zero 2 W. Zero "dedicated" GP
     - While there is an even less powerful and even cheaper microcontroller (Pi Pico), I wouldn't be able to use C++, and most of the effort wouldn't be on the renderer but just getting to start point of the Pi Zero.
   
 # How it Works
+- 5 Stage Pipeline
 - SDL
