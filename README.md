@@ -24,5 +24,8 @@ A CPU-Based software renderer for the Raspberry Pi Zero 2 W. Zero "dedicated" GP
   
 # How it Works
 - The Graphics Pipeline is OBJ load → Vertex transform (rotation + scale) → Projection → Triangle assembly → Rasterization (barycentric + Z-buffer) → Framebuffer output → Display (SDL2)
-    - For reference, the OpenGL pipeline is Vertex Specification/Input → Vertex Shader → Tessellation Control Shader (optional) → Tessellation Evaluation Shader (optional) → Geometry Shader (optional) → Clipping → Rasterization → Fragment Shader → Per-Fragment Operations (depth/stencil/blend) → Framebuffer Output
+    - For reference, the OpenGL pipeline is a bit more complicated:
+        - Vertex Specification/Input → Vertex Shader → Tessellation Control Shader (optional) →
+        - Tessellation Evaluation Shader (optional) → Geometry Shader (optional) → Clipping →
+        - Rasterization → Fragment Shader → Per-Fragment Operations (depth/stencil/blend) → Framebuffer Output
 - Coming soon
