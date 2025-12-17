@@ -1,8 +1,6 @@
 # ZeroGPU (WIP)
 A CPU-Based software renderer for the Raspberry Pi Zero 2 W. Zero "dedicated" GPU!
 
-### The code is currently working, but I am fixing bugs before public release.
-
 ## Donut
 <img width="400" height="310" alt="image" src="https://github.com/user-attachments/assets/69408224-4923-4918-b445-685b3809bd62" />
 <img width="400" height="310" alt="image" src="https://github.com/user-attachments/assets/8005a854-48f0-456e-81cc-1b002709c9cb" />
@@ -33,4 +31,4 @@ A CPU-Based software renderer for the Raspberry Pi Zero 2 W. Zero "dedicated" GP
 
 - As you can see, right now, ZeroGPU is a lot simpler than OpenGL. I'll be working to implement additional features, such as textures and Lighting, over time.
       
-- Coming soon
+### Disclaimer: I did use AI to assist me with writing the code for this project, however, almost all the technical design and function work was pre planned and written by me.
